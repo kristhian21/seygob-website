@@ -5,7 +5,7 @@ export default function Hero() {
   const [image, setImage] = useState("/hero-image.jpg");
 
   return (
-    <section className="h-screen mb-8 hero-background flex flex-col md:flex-row">
+    <section className="h-screen mb-14 hero-background flex flex-col md:flex-row">
       <div className="basis-1/2 flex flex-col justify-center md:pl-16 p-4">
         <h1 className="text-2xl sm:text-3xl mt-24 lg:text-5xl font-black text-white">
           SOLUCIONES EMPRESARIALES Y DE GOBIERNO SEYGOB SAS
