@@ -15,13 +15,13 @@ export default function Hero() {
           integrales facilitando sus tareas diarias
         </p>
       </div>
-      <div className="basis-1/2 flex justify-center items-center mt-8 p-4 mb-4">
+      <div className="basis-1/2 flex justify-center items-center px-4 pb-8">
         <Image
-          className="rounded-lg shadow-xl shadow-slate-900/60"
+          className="rounded-lg shadow-xl md:w-4/5 shadow-slate-900/60"
           src={`${image}`}
           alt="Hero Image"
-          width={500}
-          height={500}
+          width={400}
+          height={400}
         />
       </div>
     </section>

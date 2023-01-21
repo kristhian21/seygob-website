@@ -16,7 +16,7 @@ export default function About() {
         height={400}
       />
       <div className="order-1 md:order-2 md:basis-1/2 md:px-12 mb-4">
-        <h3 className="text-4xl md:text-5xl font-bold mb-4">¿Quienes somos?</h3>
+        <h3 className="text-4xl md:text-5xl font-bold mb-4">¿Quiénes somos?</h3>
         <p className="mb-4 text-xl">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
           incidunt quo voluptates blanditiis assumenda culpa laboriosam vitae!
