@@ -44,9 +44,9 @@ export default function NavBar() {
           </h1>
         </Link>
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
-          <li className="p-4 font-semibold text-lg hover:text-yellow-400">
+          {/* <li className="p-4 font-semibold text-lg hover:text-yellow-400">
             <Link href="/">Nuestro trabajo</Link>
-          </li>
+          </li> */}
           <li className="p-4 font-semibold text-lg  hover:text-yellow-400">
             <Link href="/soluciones">Soluciones</Link>
           </li>
@@ -72,12 +72,12 @@ export default function NavBar() {
           }
         >
           <ul>
-            <li
+            {/* <li
               onClick={handleNav}
               className="p-4 text-4xl hover:text-yellow-400"
             >
               <Link href="/">Nuestro trabajo</Link>
-            </li>
+            </li> */}
             <li
               onClick={handleNav}
               className="p-4 text-4xl hover:text-yellow-400"
