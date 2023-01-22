@@ -1,22 +1,27 @@
 import Product from "./Product";
+import modulesData from "../data/mainModules";
 
 export default function Products() {
+  const modules = modulesData.map((item) => {
+    return (
+      <Product key={item.id} name={item.name}>
+        {item.info}
+      </Product>
+    );
+  });
+
   return (
-    <div className="px-4 mb-12">
+    <div className="px-8 mb-10">
       <h2 className="mb-4 text-3xl font-bold">Módulos ERP HASNET</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
-        <Product>Gestión de Planeacion</Product>
-        <Product>Gestión de Presupuesto</Product>
-        <Product>Gestión de Contabilidad</Product>
-        <Product>Gestión de Tesoreria</Product>
-        <Product>Gestión de Talento Humano</Product>
-        <Product>Gestión de Recursos Fisicos</Product>
+        {modules}
       </div>
-      <div className="flex justify-center mt-12">
+      <div className="flex justify-center mt-10">
         <button
-          className="w-44 bg-violet-500 hover:bg-violet-600 active:bg-violet-700
-          focus:outline-none focus:ring focus:ring-violet-300 text-white 
-          rounded-full py-3 px-4 text-lg font-bold cursor-pointer"
+          className="w-40 bg-gradient-to-r from-blue-500 to-indigo-700
+          hover:bg-gradient-to-r hover:from-blue-600 hover:to-indigo-800 
+          text-white rounded-full py-2 px-4 text-lg font-bold cursor-pointer 
+          shadow-xl shadow-slate-00/40"
         >
           Ver más
         </button>

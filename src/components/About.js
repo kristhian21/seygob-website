@@ -2,16 +2,16 @@ import { React, useState } from "react";
 import Image from "next/image";
 
 export default function About() {
-  const [image, setImage] = useState("/hero-image.jpg");
+  const [image, setImage] = useState("/team.jpg");
   return (
     <div
-      className="flex flex-col md:flex-row md:justify-between items-center bg-gradient-to-l from-cyan-500 to-indigo-900 
-    py-12 px-6 text-white"
+      className="flex flex-col md:flex-row md:justify-between items-center 
+      bg-gradient-to-l from-cyan-500 to-indigo-900 py-12 px-8 text-white"
     >
       <Image
         className="order-2 md:order-1 md:basis-1/2 rounded-lg shadow-xl shadow-slate-900/60"
         src={`${image}`}
-        alt="Hero Image"
+        alt="Team Image"
         width={400}
         height={400}
       />

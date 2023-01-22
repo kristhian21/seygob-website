@@ -1,10 +1,16 @@
 export default function Product(props) {
   return (
-    <div className="flex flex-col justify-center  py-8 px-4 bg-indigo-700 hover:bg-indigo-600 basis-1/3 rounded-md text-white shadow-md shadow-slate-900/60">
-      <h3 className="text-xl font-bold mb-2">{props.children}</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit.
-      </p>
+    <div
+      className="flex flex-col justify-start p-8 rounded-xl
+     text-black shadow-md shadow-slate-400/30
+     hover:shadow-xl hover:shadow-slate-600/30"
+    >
+      <h3 className="text-2xl font-bold">{props.name}</h3>
+      <hr class="h-1 mt-1 mb-4 bg-gradient-to-r from-blue-500 to-indigo-700 border-0 rounded" />
+      <p className="text-lg">{props.children}</p>
     </div>
   );
 }
+
+//bg-gradient-to-r from-cyan-500 to-blue-500
+//bg-indigo-700 hover:bg-indigo-600
