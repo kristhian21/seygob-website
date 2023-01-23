@@ -31,7 +31,7 @@ export default function NavBar() {
   return (
     <div
       style={{ backgroundColor: `${color}` }}
-      className="fixed left-0 top-0 w-full z-10 ease-in duration-300"
+      className="fixed left-0 top-0 w-full z-10 ease-in duration-200"
     >
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white ">
         <Link href="/" className="flex items-center">
@@ -47,10 +47,10 @@ export default function NavBar() {
           {/* <li className="p-4 font-semibold text-lg hover:text-yellow-400">
             <Link href="/">Nuestro trabajo</Link>
           </li> */}
-          <li className="p-4 font-semibold text-lg  hover:text-yellow-400">
+          <li className="p-4 font-bold text-xl  hover:text-amber-500">
             <Link href="/soluciones">Soluciones</Link>
           </li>
-          <li className="p-4 font-semibold text-lg  hover:text-yellow-400">
+          <li className="p-4 font-bold text-xl  hover:text-amber-500">
             <Link href="/contacto">Contacto</Link>
           </li>
         </ul>

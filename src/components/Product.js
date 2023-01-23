@@ -11,6 +11,3 @@ export default function Product(props) {
     </div>
   );
 }
-
-//bg-gradient-to-r from-cyan-500 to-blue-500
-//bg-indigo-700 hover:bg-indigo-600

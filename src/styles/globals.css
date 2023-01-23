@@ -17,3 +17,7 @@ body {
     rgba(184, 0, 255, 1) 100%
   );
 }
+
+.hero-solutions-background {
+  background-image: url(/solutions.jpg);
+}

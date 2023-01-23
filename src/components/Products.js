@@ -21,7 +21,7 @@ export default function Products() {
           className="w-40 bg-gradient-to-r from-blue-500 to-indigo-700
           hover:bg-gradient-to-r hover:from-blue-600 hover:to-indigo-800 
           text-white rounded-full py-2 px-4 text-lg font-bold cursor-pointer 
-          shadow-xl shadow-slate-00/40"
+          shadow-lg shadow-slate-500/30 hover:shadow-xl hover:shadow-slate-500/40"
         >
           Ver más
         </button>

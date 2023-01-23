@@ -10,7 +10,7 @@ export default function Hero() {
         <h1 className="text-2xl sm:text-3xl mt-24 lg:text-5xl font-black text-white">
           SOLUCIONES EMPRESARIALES Y DE GOBIERNO SEYGOB SAS
         </h1>
-        <p className="font-extrabold mt-4 text-xl sm:text-2xl text-amber-400">
+        <p className="font-extrabold mt-4 text-xl sm:text-2xl text-amber-500">
           Trabajamos día a día para entregar a nuestros clientes soluciones
           integrales facilitando sus tareas diarias
         </p>
