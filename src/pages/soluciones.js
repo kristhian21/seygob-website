@@ -1,9 +1,18 @@
-import HeroSolutions from "@/components/HeroSolutions";
+import BusinessModel from "@/components/BusinessModel";
+import Hero from "@/components/Hero";
 
 export default function Soluciones() {
   return (
     <div>
-      <HeroSolutions />
+      <Hero
+        bg="hero-solutions-background"
+        opacity="bg-black/80"
+        title="ERP HASNET"
+        subtitle="Herramienta para el registro, manejo y control de la información para
+        rendición de informes y toma de decisiones de entidades públicas
+        colombianas."
+      />
+      <BusinessModel />
     </div>
   );
 }

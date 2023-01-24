@@ -1,7 +1,7 @@
 export default function Product(props) {
   return (
     <div
-      className="flex flex-col justify-start p-8 rounded-xl
+      className="flex flex-col justify-start p-8 bg-white rounded-xl
      text-black shadow-md shadow-slate-400/30
      hover:shadow-xl hover:shadow-slate-600/30"
     >

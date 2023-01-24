@@ -1,28 +1,17 @@
-import Image from "next/image";
-import React, { useState } from "react";
-
-export default function Hero() {
-  const [image, setImage] = useState("/hero-image.jpg");
-
+export default function Hero(props) {
   return (
-    <section className="h-screen mb-14 hero-background flex flex-col md:flex-row">
-      <div className="basis-1/2 flex flex-col justify-center md:pl-16 p-4">
-        <h1 className="text-2xl sm:text-3xl mt-24 lg:text-5xl font-black text-white">
-          SOLUCIONES EMPRESARIALES Y DE GOBIERNO SEYGOB SAS
+    <section
+      className={`h-screen bg-cover bg-left-top ${props.bg}
+     bg-blend-overlay ${props.opacity} bg-fixed mb-12 flex flex-col items-center
+     justify-center md:flex-row md:justify-start px-8 md:px-16`}
+    >
+      <div className="flex flex-col md:basis-2/3">
+        <h1 className="text-4xl md:text-5xl mt-24 font-black text-white">
+          {props.title}
         </h1>
-        <p className="font-extrabold mt-4 text-xl sm:text-2xl text-amber-500">
-          Trabajamos día a día para entregar a nuestros clientes soluciones
-          integrales facilitando sus tareas diarias
+        <p className="font-bold mt-8 text-2xl md:text-3xl text-amber-500">
+          {props.subtitle}
         </p>
-      </div>
-      <div className="basis-1/2 flex justify-center items-center px-4 pb-8">
-        <Image
-          className="rounded-lg shadow-xl md:w-4/5 shadow-slate-900/60"
-          src={`${image}`}
-          alt="Hero Image"
-          width={400}
-          height={400}
-        />
       </div>
     </section>
   );

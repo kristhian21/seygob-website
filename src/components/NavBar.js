@@ -33,7 +33,7 @@ export default function NavBar() {
       style={{ backgroundColor: `${color}` }}
       className="fixed left-0 top-0 w-full z-10 ease-in duration-200"
     >
-      <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white ">
+      <div className="max-w-[1240px] m-auto flex justify-between items-center py-3 px-4 text-white ">
         <Link href="/" className="flex items-center">
           <Image src={`${logo}`} alt="Logo image" width={50} height={50} />
           <h1

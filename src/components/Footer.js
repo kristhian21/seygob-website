@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div
       className="flex flex-col sm:flex-row justify-between items-center
-     bg-indigo-700 py-10 px-16 text-white border-t-2 border-t-slate-300"
+     bg-indigo-700 py-6 px-16 text-white"
     >
       <div className="sm:basis-1/3 flex flex-col gap-4 items-center">
         <Image src={`${logo}`} alt="Logo image" width={50} height={50} />
@@ -19,7 +19,7 @@ export default function Footer() {
         <li>3176901710 - 3232053448</li>
         <li>Calle 71c #91-29</li>
       </ul>
-      <p className="sm:basis-1/3  mt-6 text-center">
+      <p className="sm:basis-1/3 mt-6 text-center">
         © 2023 Todos los derechos reservados.
       </p>
     </div>
