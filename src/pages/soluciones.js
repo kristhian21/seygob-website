@@ -1,4 +1,4 @@
-import BusinessModel from "@/components/BusinessModel";
+import Erp from "@/components/Erp";
 import Hero from "@/components/Hero";
 
 export default function Soluciones() {
@@ -12,7 +12,7 @@ export default function Soluciones() {
         rendición de informes y toma de decisiones de entidades públicas
         colombianas."
       />
-      <BusinessModel />
+      <Erp />
     </div>
   );
 }
