@@ -1,4 +1,5 @@
 import Product from "./Product";
+import Link from "next/link";
 import modulesData from "../data/mainModules";
 
 export default function Products() {
@@ -17,14 +18,15 @@ export default function Products() {
         {modules}
       </div>
       <div className="flex justify-center mt-10">
-        <button
+        <Link
           className="w-40 bg-gradient-to-r from-blue-500 to-indigo-700
           hover:bg-gradient-to-r hover:from-blue-600 hover:to-indigo-800 
           text-white rounded-full py-2 px-4 text-lg font-bold cursor-pointer 
-          shadow-lg shadow-slate-500/30 hover:shadow-xl hover:shadow-slate-500/40"
+          shadow-lg shadow-slate-500/30 hover:shadow-xl hover:shadow-slate-500/40 text-center"
+          href="/soluciones"
         >
           Ver más
-        </button>
+        </Link>
       </div>
     </div>
   );

@@ -22,8 +22,8 @@ export default function Erp() {
         className="md:basis-1/2 mt-8 md:mt-0 rounded-lg shadow-xl shadow-slate-900/60"
         src={`${image}`}
         alt="Team Image"
-        width={300}
-        height={300}
+        width={625}
+        height={400}
       />
     </div>
   );
