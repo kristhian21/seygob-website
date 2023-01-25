@@ -2,7 +2,7 @@ export default function Hero(props) {
   return (
     <section
       className={`h-screen bg-cover bg-left-top ${props.bg}
-     bg-blend-overlay ${props.opacity} bg-fixed mb-12 flex flex-col items-center
+     bg-blend-overlay ${props.opacity} bg-fixed flex flex-col items-center
      justify-center md:flex-row md:justify-start px-8 md:px-16`}
     >
       <div className="flex flex-col md:basis-2/3">

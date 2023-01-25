@@ -11,7 +11,7 @@ export default function Products() {
   });
 
   return (
-    <div className="px-8 mb-10">
+    <div className="p-8">
       <h2 className="mb-8 text-3xl font-bold">Módulos ERP HASNET</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
         {modules}
