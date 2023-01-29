@@ -2,10 +2,16 @@ import Advantages from "@/components/Advantages";
 import BusinessModel from "@/components/BusinessModel";
 import Erp from "@/components/Erp";
 import Hero from "@/components/Hero";
+import Head from "next/head";
 
 export default function Soluciones() {
   return (
     <div>
+      <Head>
+        <title>Soluciones | SEYGOB</title>
+        <meta name="description" content="Soluciones" />
+        <link rel="icon" href="/logo.png" />
+      </Head>
       <Hero
         bg="hero-solutions-background"
         opacity="bg-black/80"

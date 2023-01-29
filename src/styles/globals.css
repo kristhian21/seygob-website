@@ -16,3 +16,7 @@ body {
 .hero-main-background {
   background-image: url(/heroBg.jpeg);
 }
+
+.hero-contact-background {
+  background-image: url(/contact-hero.jpg);
+}
